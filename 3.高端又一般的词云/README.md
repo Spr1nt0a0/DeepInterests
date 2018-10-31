@@ -20,23 +20,23 @@ WordCloud()可选的参数:
 * background_color：背景颜色，默认为black;
 * mode：默认为RGB模式，如果为RGBA模式且background_color设为None，则背景将透明。  
 
-代码参考code/main_1.py。  
+代码参考codes/main_1.py。  
 由于英文单词之间有分隔，因此大多不需要额外的处理。
 ## 3.4 中文词云
 中文一般需要经过分词处理，先看下不分词的效果。  
 以《西游记》为例，可以看到结果中会出现各种双字、三字和四字等，但很多并不是合理的词语。  
-代码参考code/main_2.py。  
+代码参考codes/main_2.py。  
 这次我们先用jieba进行中文分词，可以看到生成的词云里，基本上都是合理的词语了。  
-代码参考code/main_3.py。  
+代码参考codes/main_3.py。  
 ## 3.5 使用蒙版
 这里将mask翻译为蒙版，是因为感觉它和Photoshop中蒙版的作用很类似。  
 使用蒙版之后，可以根据提供的蒙版图片，生成指定形状的词云。  
-代码参考code/main_4.py。
+代码参考codes/main_4.py。
 ## 3.6 颜色
 词云的颜色可以从蒙版中抽取，使用ImageColorGenerator()即可。  
-代码参考code/main_5.py。  
+代码参考codes/main_5.py。  
 当然也可以设置为纯色，增加一个配色函数即可。  
-代码参考code/main_6.py。
+代码参考codes/main_6.py。
 ## 3.7 精细控制
 如果希望精细地控制词云中出现的词，以及每个词的大小，可以尝试generate_from_frequencies()，包括两个参数：
 * frequencies：一个字典，用于指定词和对应的大小；
@@ -44,5 +44,5 @@ WordCloud()可选的参数:
 
 generate() = process_text() + generate_from_frequencies()。  
 以下用jieba提取出关键词和权重，再以此绘制词云。  
-代码参考code/main_7.py。
+代码参考codes/main_7.py。
 
