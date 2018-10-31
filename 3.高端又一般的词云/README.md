@@ -19,6 +19,7 @@ WordCloud()可选的参数:
 * stopwords：将被忽略的停用词，如果不指定则使用默认的停用词词库;
 * background_color：背景颜色，默认为black;
 * mode：默认为RGB模式，如果为RGBA模式且background_color设为None，则背景将透明。    
+
 代码参考code/main_1.py。  
 由于英文单词之间有分隔，因此大多不需要额外的处理。
 ## 3.4 中文词云
