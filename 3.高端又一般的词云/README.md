@@ -41,6 +41,7 @@ WordCloud()可选的参数:
 如果希望精细地控制词云中出现的词，以及每个词的大小，可以尝试generate_from_frequencies()，包括两个参数：
 * frequencies：一个字典，用于指定词和对应的大小；
 * max_font_size：最大字号，默认为None。    
+
 generate() = process_text() + generate_from_frequencies()。  
 以下用jieba提取出关键词和权重，再以此绘制词云。  
 代码参考code/main_7.py。
