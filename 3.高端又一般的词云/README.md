@@ -6,7 +6,7 @@
 掌握用Python实现词云的方法。
 ## 3.2 准备
 安装包。  
-> pip install wordcloud matplotlib jieba PIL
+--- pip install wordcloud matplotlib jieba PIL
 ## 2.3 pycharm
 一个简洁清爽的编辑器。
 ## 2.4 运行代码
