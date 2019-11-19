@@ -21,4 +21,4 @@ windows上的文件路径以左斜杠拼接。
 tensorflow和keras都是很流行的深度学习框架，tensorflow提供了更加底层的API，keras封装性更高，以theano和tensorflow等底层框架为backend。
 ## 2.9 GPU
 CNN等神经网络模型使用GPU训练更快，有条件的话可以使用GPU，不然只能使用CPU进行训练，相应的安装tensorflow的GPU版本。  
-如果是英伟达的GPU，那么还要安装和配置CUDN和CuGDNN，注意版本兼容的问题。
+如果是英伟达的GPU，那么还要安装和配置CUDN和CuDNN，注意版本兼容的问题。
